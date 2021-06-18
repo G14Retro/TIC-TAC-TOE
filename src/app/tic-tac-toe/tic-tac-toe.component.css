@@ -1,0 +1,25 @@
+.mesa-juego{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jugador1{
+    color: rgb(83, 163, 83);
+}
+
+.jugador2{
+    color: rgb(230, 109, 109);
+}
+
+.tablero{
+    max-width: 300px;
+    padding-top: 3rem;
+}
+
+.campo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(161, 24, 24);
+}
